@@ -59,25 +59,24 @@ public class ForecastFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View view = inflater.inflate(R.layout.fragment_forecast, container, false);
+        return inflater.inflate(R.layout.fragment_forecast, container, false);
         // Set background color dynamically
-        view.setBackgroundColor(Color.parseColor("#20FF0000")); // Change to any color you want
-        LinearLayout linearLayout = new LinearLayout(getContext());
-        linearLayout.setOrientation(LinearLayout.VERTICAL);
+        //view.setBackgroundColor(Color.parseColor("#20FF0000")); // Change to any color you want
+        //LinearLayout linearLayout = new LinearLayout(getContext());
+        //linearLayout.setOrientation(LinearLayout.VERTICAL);
 
-        TextView tv = new TextView(getContext());
+        //TextView tv = new TextView(getContext());
 
-        ImageView iv = new ImageView(getContext());
+        //ImageView iv = new ImageView(getContext());
 
-        iv.setImageResource(R.drawable.sun);
+        //iv.setImageResource(R.drawable.sun);
 
-        tv.setText("Thursday");
+        //tv.setText("Thursday");
 
-        linearLayout.addView(tv);
-        linearLayout.addView(iv);
+        //linearLayout.addView(tv);
+        //linearLayout.addView(iv);
 
-        return linearLayout;
-
+       // return linearLayout;
 
 
 
