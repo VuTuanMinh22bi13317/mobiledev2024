@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="app_name">USTH weather</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="true">Hello blank fragment</string>
+    <string name="USTH_Weather" translatable="true">USTH Weather</string>
+    <string name="monday" translatable="true">Mon</string>
+    <string name="tuesday" translatable="true">Tue</string>
+    <string name="wednesday" translatable="true">Wed</string>
+    <string name="thursday" translatable="true">Thu</string>
+    <string name="friday" translatable="true">Fri</string>
+    <string name="saturday" translatable="true">Sat</string>
+    <string name="sunday" translatable="true">Sun</string>
+
+    <string name="partly_cloudy" translatable="true">Partly Cloudy</string>
+    <string name="Cloudy" translatable="true">Cloudy</string>
+    <string name="showers" translatable="true">Showers</string>
+    <string name="rain" translatable="true">Rain</string>
+    <string name="scattered_showers" translatable="true">Scattered Showers</string>
+    <string name="mostly_cloudy" translatable="true">Mostly Cloudy</string>
+    <string name="thunderstorm" translatable="true">Thunderstorms</string>
+    <string name="scattered_thunderstorm" translatable="true">Scattered Thunderstorms</string>
+
+    <string name="d24C_31C" translatable="true">24C-31C</string>
+    <string name="d24C_30C" translatable="true">24C-30C</string>
+    <string name="d22C_23C" translatable="true">22C-23C</string>
+    <string name="d22C_27C" translatable="true">22C-27C</string>
+    <string name="d22C_30C" translatable="true">22C-30C</string>
+    <string name="d25C_28C" translatable="true">25C-28C</string>
+    <string name="d24C_27C" translatable="true">24C-27C</string>
+    <string name="d24C_26C" translatable="true">24C-26C</string>
+    <string name="d23C_27C" translatable="true">23C-27C</string>
+    <string name="d12C" translatable="true">12C</string>
+
+    <string name="Paris" translatable="true">Paris</string>
+    <string name="cloudy12c" translatable="true">12C\nCloudy</string>
+
+
+</resources>

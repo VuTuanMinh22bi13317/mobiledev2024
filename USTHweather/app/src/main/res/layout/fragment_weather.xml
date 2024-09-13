@@ -15,7 +15,7 @@
             <TextView
                 android:layout_width="100dp"
                 android:layout_height="100dp"
-                android:text="\n\n12C\nCloudy" />
+                android:text="@string/cloudy12c" />
 
 
         <ImageView
@@ -31,7 +31,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
-            android:text="\n\nParis">
+            android:text="@string/Paris">
 
         </TextView>
 
