@@ -7,12 +7,19 @@
     tools:context=".WeatherActivity"
     android:orientation="vertical">
 
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
     <androidx.viewpager.widget.ViewPager
         android:id="@+id/pager"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
         <fragment
+
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:name="vn.edu.usth.usthweather.WeatherandForecastFragment"
@@ -21,9 +28,11 @@
         </fragment>
 
         <fragment
+
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:name="vn.edu.usth.usthweather.WeatherandForecastFragment" />
+            android:name="vn.edu.usth.usthweather.WeatherandForecastFragment" >
+        </fragment>
 
         <fragment
             android:layout_width="match_parent"

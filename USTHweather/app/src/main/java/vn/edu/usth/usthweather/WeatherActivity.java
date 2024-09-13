@@ -10,6 +10,8 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 import androidx.viewpager.widget.ViewPager;
 
+import com.google.android.material.tabs.TabLayout;
+
 public class WeatherActivity extends AppCompatActivity {
 
 
@@ -37,6 +39,8 @@ public class WeatherActivity extends AppCompatActivity {
         //    v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
         //    return insets;
        // });
+        TabLayout tabLayout =(TabLayout) findViewById(R.id.tab);
+        tabLayout.setupWithViewPager(pager);
     }
     @Override
     protected void onStart() {
