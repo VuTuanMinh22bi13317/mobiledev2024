@@ -4,23 +4,23 @@
     <string name="app_name">USTH weather</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment" translatable="true">Hello blank fragment</string>
-    <string name="USTH_Weather" translatable="true">USTH Weather</string>
-    <string name="monday" translatable="true">Mon</string>
-    <string name="tuesday" translatable="true">Tue</string>
-    <string name="wednesday" translatable="true">Wed</string>
-    <string name="thursday" translatable="true">Thu</string>
-    <string name="friday" translatable="true">Fri</string>
-    <string name="saturday" translatable="true">Sat</string>
-    <string name="sunday" translatable="true">Sun</string>
+    <string name="USTH_Weather" translatable="true">USTH thời tiết</string>
+    <string name="monday" translatable="true">Thứ 2</string>
+    <string name="tuesday" translatable="true">Thứ 3</string>
+    <string name="wednesday" translatable="true">Thứ 4</string>
+    <string name="thursday" translatable="true">Thứ 5</string>
+    <string name="friday" translatable="true">Thứ 6</string>
+    <string name="saturday" translatable="true">Thứ 7</string>
+    <string name="sunday" translatable="true">Chủ nhật</string>
 
-    <string name="partly_cloudy" translatable="true">Partly Cloudy</string>
-    <string name="Cloudy" translatable="true">Cloudy</string>
-    <string name="showers" translatable="true">Showers</string>
-    <string name="rain" translatable="true">Rain</string>
-    <string name="scattered_showers" translatable="true">Scattered Showers</string>
-    <string name="mostly_cloudy" translatable="true">Mostly Cloudy</string>
-    <string name="thunderstorm" translatable="true">Thunderstorms</string>
-    <string name="scattered_thunderstorm" translatable="true">Scattered Thunderstorms</string>
+    <string name="partly_cloudy" translatable="true">Hơi nhiều mây</string>
+    <string name="Cloudy" translatable="true">Mây</string>
+    <string name="showers" translatable="true">Mưa rào</string>
+    <string name="rain" translatable="true">Mưa</string>
+    <string name="scattered_showers" translatable="true"> Mưa rào rải rác</string>
+    <string name="mostly_cloudy" translatable="true">Chủ yếu nhiều mây</string>
+    <string name="thunderstorm" translatable="true">sấm sét</string>
+    <string name="scattered_thunderstorm" translatable="true">Sấm sét rải rác</string>
 
     <string name="d24C_31C" translatable="true">24C-31C</string>
     <string name="d24C_30C" translatable="true">24C-30C</string>

@@ -34,13 +34,15 @@ public class WeatherActivity extends AppCompatActivity {
         //getSupportFragmentManager().beginTransaction().add(
         //        R.id.main, firstFragment).commit();
 
-        //ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
-        //    Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
-        //    v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
-        //    return insets;
-       // });
         TabLayout tabLayout =(TabLayout) findViewById(R.id.tab);
         tabLayout.setupWithViewPager(pager);
+
+        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
+           Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
+            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
+            return insets;
+        });
+
     }
     @Override
     protected void onStart() {
