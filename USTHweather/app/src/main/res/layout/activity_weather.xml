@@ -11,8 +11,7 @@
     <com.google.android.material.tabs.TabLayout
         android:id="@+id/tab"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        />
+        android:layout_height="wrap_content" />
 
 
     <androidx.viewpager.widget.ViewPager
@@ -20,7 +19,24 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1">
+        <fragment
 
+            android:name="vn.edu.usth.usthweather.WeatherandForecastFragment"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+        </fragment>
+
+        <fragment
+
+            android:name="vn.edu.usth.usthweather.WeatherandForecastFragment"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+
+        <fragment
+            android:name="vn.edu.usth.usthweather.WeatherandForecastFragment"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
 
     </androidx.viewpager.widget.ViewPager>
 

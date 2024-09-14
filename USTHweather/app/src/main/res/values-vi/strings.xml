@@ -34,7 +34,7 @@
     <string name="d12C" translatable="true">12C</string>
 
     <string name="Paris" translatable="true">Paris</string>
-    <string name="cloudy12c" translatable="true">12C\nCloudy</string>
+    <string name="cloudy" translatable="true">Cloudy</string>
 
 
 </resources>
