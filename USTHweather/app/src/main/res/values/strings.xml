@@ -33,6 +33,7 @@
 
     <string name="Paris">Paris</string>
     <string name="cloudy">Cloudy</string>
+    <string name="refresh">Refresh</string>
 
 
 </resources>

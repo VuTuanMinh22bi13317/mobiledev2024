@@ -35,6 +35,7 @@
 
     <string name="Paris" translatable="true">Paris</string>
     <string name="cloudy" translatable="true">Cloudy</string>
+    <string name="refresh" translatable="true">Refresh</string>
 
 
 </resources>
